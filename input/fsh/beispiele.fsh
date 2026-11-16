@@ -18,17 +18,17 @@
 // sie eine Reaktion.
 // =====================================================================
 
-// Instance: TODO_Name                        // z. B. PenicillinAllergieAnna
+// Instance: MorphineAllergyAnna                        // z. B. PenicillinAllergieAnna
 // InstanceOf: DgMedicationAllergy
 // Usage: #example
-// Title: "TODO Titel"
-// Description: "TODO: Was zeigt dieses Beispiel?"
+// Title: "Morphinallergie bei Anna Muster"
+// Description: "Arzneimittelallergie gegen Morphin"
 // * patient = Reference(AnnaMuster)
-// * category = TODO
-// * clinicalStatus = $allergy-clinical#TODO
-// * verificationStatus = $allergy-verification#TODO
-// * code = $sct#TODO "TODO Display"
-// * criticality = TODO
-// * onsetDateTime = "TODO"
-// * recorder = Reference(TODO)
-// * reaction.manifestation = $sct#TODO "TODO Display"
+// * category = #medication
+// * clinicalStatus = $allergy-clinical#active
+// * verificationStatus = $allergy-verification#confirmed
+// * code = $sct#293601001 "Allergy to Morphine"
+// * criticality = #high
+// * onsetDateTime = "2026-02-10"
+// * recorder = Reference(DrSaraKeller)
+// * reaction.manifestation = $sct#271807003 "Skin rash"
