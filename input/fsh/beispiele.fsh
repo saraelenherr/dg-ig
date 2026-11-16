@@ -18,17 +18,17 @@
 // sie eine Reaktion.
 // =====================================================================
 
-// Instance: MorphineAllergyAnna                        // z. B. PenicillinAllergieAnna
-// InstanceOf: DgMedicationAllergy
-// Usage: #example
-// Title: "Morphinallergie bei Anna Muster"
-// Description: "Arzneimittelallergie gegen Morphin"
-// * patient = Reference(AnnaMuster)
-// * category = #medication
-// * clinicalStatus = $allergy-clinical#active
-// * verificationStatus = $allergy-verification#confirmed
-// * code = $sct#293601001 "Allergy to Morphine"
-// * criticality = #high
-// * onsetDateTime = "2026-02-10"
-// * recorder = Reference(DrSaraKeller)
-// * reaction.manifestation = $sct#271807003 "Skin rash"
+Instance: MorphineAllergyAnna                        // z. B. PenicillinAllergieAnna
+InstanceOf: DgMedicationAllergy
+Usage: #example
+Title: "Morphinallergie bei Anna Muster"
+Description: "Arzneimittelallergie gegen Morphin"
+* patient = Reference(AnnaMuster)
+* category = #medication
+* clinicalStatus = $allergy-clinical#active
+* verificationStatus = $allergy-verification#confirmed
+* code = $sct#293601001 "Allergy to Morphine"
+* criticality = #high
+* onsetDateTime = "2026-02-10"
+* recorder = Reference(DrSaraKeller)
+* reaction.manifestation = $sct#271807003 "Skin rash"

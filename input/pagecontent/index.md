@@ -18,8 +18,6 @@ persönliche Daten gehören nicht dazu.
 
 ### Artefakte
 
-TODO: Ergänzt pro Artefakt einen Satz, wofür es da ist.
-
 * [DG Arzneimittelallergie](StructureDefinition-dg-medication-allergy.html): 
 Das definierte Profil für Arzneimittelallergien, das auf CH Core AllergyIntolerance 
 aufbaut und die Anforderungen für die Praxis und Notfallstation einschränkt.
@@ -33,6 +31,6 @@ Dieses IG baut auf [CH Core 6.0.0](https://fhir.ch/ig/ch-core/6.0.0/) auf.
 
 ### Autorin oder Autor
 
-TODO: Sara Lenherr
+Sara Lenherr
 
 <p style="font-size:smaller">Erstellt im Lab des Moduls Data Standards in Healthcare, ZHAW, HS26. Kein offizieller Standard.</p>
