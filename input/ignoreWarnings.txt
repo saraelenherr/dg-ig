@@ -4,3 +4,10 @@
 # Kopiert dazu den Text der Warnung exakt in eine eigene Zeile.
 # Schreibt über jede unterdrückte Warnung einen Kommentar mit dem Grund.
 # Errors lassen sich nicht unterdrücken, die müsst ihr beheben.
+
+output/searchform.html	warning	The html source is not well formed: Found "</a>" expecting "</img>" at line 34 column 177
+
+
+The ImplementationGuide uses package ch.fhir.ig.ch-term#3.3.0 released on 2025-12-15, but the most recent appropriate version is 3.4.0. This reference is getting old and the more recent version should be considered
+# ch-term 3.3.0 ist für das Lab ausreichend
+
