@@ -5,9 +5,49 @@
 # Schreibt über jede unterdrückte Warnung einen Kommentar mit dem Grund.
 # Errors lassen sich nicht unterdrücken, die müsst ihr beheben.
 
-output/searchform.html	warning	The html source is not well formed: Found "</a>" expecting "</img>" at line 34 column 177
-
-
+# Ältere Version von ch-term wird verwendet, für das Lab ausreichend
 The ImplementationGuide uses package ch.fhir.ig.ch-term#3.3.0 released on 2025-12-15, but the most recent appropriate version is 3.4.0. This reference is getting old and the more recent version should be considered
-# ch-term 3.3.0 ist für das Lab ausreichend
+
+# Wiederholendes Element (category) hat einen fixen Wert für einen primitiven Typ
+The repeating element has a fixed value for a primitive type. The DotNet validator will not apply this to all the repeats - this is an error
+
+# Standard-Fragment des Templates, wird im kleinen IG nicht benötigt
+The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+
+# Standard-Fragment für Versionsvergleiche, wird im kleinen IG nicht benötigt
+An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+
+# Standard-Fragment für Abhängigkeitstabellen, wird im kleinen IG nicht benötigt
+An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+
+# Standard-Fragment für globale Profile, wird im kleinen IG nicht benötigt
+The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+
+# Automatisch generierte HTML-Warnung in der Suchmaske des Basis-Templates (Zeile 34)
+The html source is not well formed: Found "</a>" expecting "</img>" at line 34 column 177
+
+# Automatisch generierte HTML-Warnung in der Suchmaske des Basis-Templates (Zeile 79)
+The html source is not well formed: Found "</div>" expecting "</body>" at line 79 column 10
+
+# Automatisch generierte HTML-Warnung in der Suchmaske des Basis-Templates (Zeile 80)
+The html source is not well formed: Found "</div>" expecting "</body>" at line 80 column 9
+
+# Automatisch generierte HTML-Warnung in der Suchmaske des Basis-Templates (Zeile 109)
+The html source is not well formed: Found "</div>" expecting "</body>" at line 109 column 8
+
+# Automatisch generierte HTML-Warnung in der Suchmaske des Basis-Templates (Zeile 111)
+The html source is not well formed: Found "</div>" expecting "</body>" at line 111 column 12
+
+# Automatisch generierte HTML-Warnung in der Suchmaske des Basis-Templates (Zeile 112)
+The html source is not well formed: Found "</div>" expecting "</body>" at line 112 column 20
+
+# Automatisch generierte HTML-Warnung in der Suchmaske des Basis-Templates (Zeile 113)
+The html source is not well formed: Found "</div>" expecting "</body>" at line 113 column 16
+
+# Automatisch generierte HTML-Warnung in der Suchmaske des Basis-Templates (Zeile 115)
+The html source is not well formed: Found "</div>" expecting "</body>" at line 115 column 12
+
+# Warnung zum festen Wert für einen primitiven Typ bei wiederholendem Element
+The repeating element has a fixed value for a primitive type. The DotNet validator will not apply this to all the repeats - this is an error
+
 
